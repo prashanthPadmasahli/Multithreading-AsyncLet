@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		048DBCA32C84BF9100542E0B /* Multithreading_AsyncLetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DBCA22C84BF9100542E0B /* Multithreading_AsyncLetApp.swift */; };
-		048DBCA52C84BF9100542E0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DBCA42C84BF9100542E0B /* ContentView.swift */; };
+		048DBCA52C84BF9100542E0B /* AsyncLetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DBCA42C84BF9100542E0B /* AsyncLetView.swift */; };
 		048DBCA72C84BF9300542E0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048DBCA62C84BF9300542E0B /* Assets.xcassets */; };
 		048DBCAA2C84BF9300542E0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048DBCA92C84BF9300542E0B /* Preview Assets.xcassets */; };
+		048DBCB12C84C01100542E0B /* AsyncLetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DBCB02C84C01100542E0B /* AsyncLetViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		048DBC9F2C84BF9100542E0B /* Multithreading-AsyncLet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multithreading-AsyncLet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		048DBCA22C84BF9100542E0B /* Multithreading_AsyncLetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multithreading_AsyncLetApp.swift; sourceTree = "<group>"; };
-		048DBCA42C84BF9100542E0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		048DBCA42C84BF9100542E0B /* AsyncLetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetView.swift; sourceTree = "<group>"; };
 		048DBCA62C84BF9300542E0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048DBCA92C84BF9300542E0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		048DBCB02C84C01100542E0B /* AsyncLetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				048DBCA22C84BF9100542E0B /* Multithreading_AsyncLetApp.swift */,
-				048DBCA42C84BF9100542E0B /* ContentView.swift */,
+				048DBCA42C84BF9100542E0B /* AsyncLetView.swift */,
+				048DBCB02C84C01100542E0B /* AsyncLetViewModel.swift */,
 				048DBCA62C84BF9300542E0B /* Assets.xcassets */,
 				048DBCA82C84BF9300542E0B /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048DBCA52C84BF9100542E0B /* ContentView.swift in Sources */,
+				048DBCB12C84C01100542E0B /* AsyncLetViewModel.swift in Sources */,
+				048DBCA52C84BF9100542E0B /* AsyncLetView.swift in Sources */,
 				048DBCA32C84BF9100542E0B /* Multithreading_AsyncLetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
